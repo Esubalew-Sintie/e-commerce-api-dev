@@ -1,3 +1,4 @@
+const { log } = require("winston");
 const {
   createOrder,
   fetchOrdersByUserId,
@@ -8,7 +9,9 @@ const { BadRequest, NotFound } = require("../utils/Errors");
 module.exports.setOrder = async (req, res, next) => {
   try {
     const userId = req.user.id;
-    const items = req.items;
+    const items = req.body.items;
+    console.log(items);
+    
     if (items?.length === 0) throw new BadRequest("product does not exists");
 
     const order = await createOrder(userId, items);

@@ -4,7 +4,7 @@ const {
 
   setUserRefreshToken,
 } = require("../services/userService");
-const { generateRefreshToken } = require("../utils/jwt");
+const { generateRefreshToken ,generateAccessToken} = require("../utils/jwt");
 const {
   generateHashedPassword,
   compareHashedPassword,
@@ -23,16 +23,7 @@ module.exports.signUp = async (req, res, next) => {
     const hashedPassword = await generateHashedPassword(password);
     const newUser = await createUser(username, email, hashedPassword);
 
-    const accessToken = generateAccessToken(
-      newUser.email,
-      newUser.id,
-      newUser.role
-    );
-    const refreshToken = generateRefreshToken(
-      newUser.email,
-      newUser.id,
-      newUser.role
-    );
+  
 
     res.status(200).json({
       success: true,

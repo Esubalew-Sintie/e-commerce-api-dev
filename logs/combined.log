@@ -43,3 +43,17 @@
 {"level":"info","message":"Fetched products from cache","timestamp":"2024-10-16T04:15:15.709Z"}
 {"level":"info","message":"Fetched products from cache","timestamp":"2024-10-16T04:15:17.889Z"}
 {"level":"info","message":"Fetched products from cache","timestamp":"2024-10-16T04:15:20.134Z"}
+{"level":"info","message":"Fetched products from database and set cache","timestamp":"2024-10-16T05:53:25.294Z"}
+{"level":"info","message":"Fetched products from cache","timestamp":"2024-10-16T05:53:41.790Z"}
+{"level":"info","message":"Product created: cloth","productId":"e0f751f7-17c4-44b6-a0f4-1ecbd42c4eb5","timestamp":"2024-10-16T05:53:48.618Z"}
+{"level":"info","message":"Product created: cloth","productId":"e0f751f7-17c4-44b6-a0f4-1ecbd42c4eb5","timestamp":"2024-10-16T05:54:16.464Z"}
+{"level":"info","message":"Fetched products from cache","timestamp":"2024-10-16T05:54:24.336Z"}
+{"level":"info","message":"Product updated: df9609ad-95ba-4b3a-a8de-7ee881405b55","timestamp":"2024-10-16T05:59:46.963Z"}
+{"level":"info","message":"Product deleted and clear the cache ","name":"camera","productId":"df9609ad-95ba-4b3a-a8de-7ee881405b55","timestamp":"2024-10-16T06:00:57.907Z"}
+{"error":{"clientVersion":"5.20.0","code":"P2025","meta":{"cause":"Record to delete does not exist.","modelName":"Product"},"name":"PrismaClientKnownRequestError"},"level":"error","message":"Error creating product","timestamp":"2024-10-16T06:01:06.931Z"}
+{"level":"info","message":"Fetched products from database and set cache","timestamp":"2024-10-16T06:01:40.725Z"}
+{"level":"info","message":"Product updated: 2c49798e-35ab-4dbe-9ac1-294a9f151597","timestamp":"2024-10-16T06:01:52.498Z"}
+{"level":"info","message":"Product created: camera","productId":"2c49798e-35ab-4dbe-9ac1-294a9f151597","timestamp":"2024-10-16T06:02:20.472Z"}
+{"level":"info","message":"Product deleted and clear the cache ","name":"camera","productId":"2c49798e-35ab-4dbe-9ac1-294a9f151597","timestamp":"2024-10-16T06:02:29.751Z"}
+{"level":"info","message":"Fetched products from database and set cache","timestamp":"2024-10-16T06:04:59.841Z"}
+{"level":"info","message":"Fetched products from cache","timestamp":"2024-10-16T06:05:55.757Z"}

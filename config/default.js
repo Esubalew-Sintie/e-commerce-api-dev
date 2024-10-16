@@ -18,10 +18,6 @@ module.exports = {
   verificationSecret: "VERIFICATION_SECRET",
   passwordResetSecret: "PASSWORD_RESET_SECRET",
 
-  // Cloudinary
-  cloudinaryName: "CLOUDINARY_NAME",
-  cloudinaryAPIKey: "CLOUDINARY_API_KEY",
-  cloudinaryAPISecret: "CLOUDINARY_API_SECRET",
 
   // Redis
   redisPort: 6379,

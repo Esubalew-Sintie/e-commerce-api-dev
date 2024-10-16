@@ -123,7 +123,7 @@ module.exports.deleteProduct = async (req, res, next) => {
       name: deletedProduct.name,
     });
 
-    res.status(201).json({
+    res.status(204).json({
       success: true,
       message: deletedProduct,
     });

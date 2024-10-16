@@ -26,9 +26,7 @@ model Product {
   name        String                      
   desc        String                  
   price       Float                        
-  stock       Int   
-  image       String?
-  cloudId     String?                       
+  stock       Int                       
   category    String                    
   orderItems  OrderItem[]                  // A product can be associated with multiple order items
 }
