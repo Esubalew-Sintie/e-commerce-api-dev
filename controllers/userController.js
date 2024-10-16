@@ -4,12 +4,13 @@ const {
 
   setUserRefreshToken,
 } = require("../services/userService");
-const { generateRefreshToken ,generateAccessToken} = require("../utils/jwt");
+const { generateRefreshToken, generateAccessToken } = require("../utils/jwt");
 const {
   generateHashedPassword,
   compareHashedPassword,
 } = require("../utils/hash");
 const { Unauthorized, BadRequest } = require("../utils/Errors");
+const logger = require("../utils/logger");
 
 module.exports.signUp = async (req, res, next) => {
   try {
@@ -23,7 +24,7 @@ module.exports.signUp = async (req, res, next) => {
     const hashedPassword = await generateHashedPassword(password);
     const newUser = await createUser(username, email, hashedPassword);
 
-  
+    logger.info("User successfully registered");
 
     res.status(200).json({
       success: true,
@@ -53,6 +54,7 @@ module.exports.logIn = async (req, res, next) => {
     const accessToken = generateAccessToken(user.email, user.id, user.role);
     const refreshToken = generateRefreshToken(user.email, user.id, user.role);
     await setUserRefreshToken(email, refreshToken);
+    logger.info("User successfully loged in ");
 
     res.status(200).json({
       success: true,
