@@ -1,0 +1,45 @@
+{"level":"info","message":"Product created: shoeees","productId":"83a7a6f8-37f4-4519-833b-80161a8cdbdc","timestamp":"2024-10-16T03:31:07.194Z"}
+{"level":"info","message":"Product updated: 43796341-b334-44e7-8939-7680567614b6","timestamp":"2024-10-16T03:37:15.103Z"}
+{"level":"info","message":"Product created: watch","productId":"43796341-b334-44e7-8939-7680567614b6","timestamp":"2024-10-16T03:38:01.488Z"}
+{"level":"info","message":"Product created: watch","productId":"43796341-b334-44e7-8939-7680567614b6","timestamp":"2024-10-16T03:38:12.115Z"}
+{"level":"info","message":"Product updated: aae6ddf0-fdf7-4275-8234-3bdef7b6343e","timestamp":"2024-10-16T03:39:36.424Z"}
+{"level":"info","message":"Product created: watch","productId":"aae6ddf0-fdf7-4275-8234-3bdef7b6343e","timestamp":"2024-10-16T03:45:25.604Z"}
+{"level":"info","message":"Product created: watch","productId":"aae6ddf0-fdf7-4275-8234-3bdef7b6343e","timestamp":"2024-10-16T03:49:07.781Z"}
+{"error":{},"level":"error","message":"Error fetching products","timestamp":"2024-10-16T03:54:09.442Z"}
+{"error":{},"level":"error","message":"Error fetching products","timestamp":"2024-10-16T03:56:00.929Z"}
+{"level":"info","message":"Fetched products from database and set cache","timestamp":"2024-10-16T03:57:02.412Z"}
+{"error":{},"level":"error","message":"Error creating product","timestamp":"2024-10-16T03:57:44.915Z"}
+{"error":{"clientVersion":"5.20.0","code":"P2025","meta":{"cause":"Record to delete does not exist.","modelName":"Product"},"name":"PrismaClientKnownRequestError"},"level":"error","message":"Error creating product","timestamp":"2024-10-16T03:58:36.127Z"}
+{"level":"info","message":"Fetched products from database and set cache","timestamp":"2024-10-16T03:59:17.604Z"}
+{"level":"info","message":"Product created: watch","productId":"d207cff0-5a98-4675-b6cf-523e5dcc0a5b","timestamp":"2024-10-16T03:59:33.827Z"}
+{"level":"info","message":"Fetched products from database and set cache","timestamp":"2024-10-16T04:01:49.892Z"}
+{"error":{},"level":"error","message":"Error creating product","timestamp":"2024-10-16T04:02:07.573Z"}
+{"error":{"clientVersion":"5.20.0","code":"P2025","meta":{"cause":"Record to delete does not exist.","modelName":"Product"},"name":"PrismaClientKnownRequestError"},"level":"error","message":"Error creating product","timestamp":"2024-10-16T04:03:12.499Z"}
+{"level":"info","message":"Fetched products from database and set cache","timestamp":"2024-10-16T04:05:20.854Z"}
+{"level":"info","message":"Product deleted: watch and clear the cache","productId":"aae6ddf0-fdf7-4275-8234-3bdef7b6343e","timestamp":"2024-10-16T04:05:36.789Z"}
+{"level":"info","message":"Fetched products from database and set cache","timestamp":"2024-10-16T04:12:12.822Z"}
+{"level":"info","message":"Fetched products from cache","timestamp":"2024-10-16T04:12:32.959Z"}
+{"level":"info","message":"Fetched products from cache","timestamp":"2024-10-16T04:12:41.945Z"}
+{"level":"info","message":"Fetched products from cache","timestamp":"2024-10-16T04:12:51.478Z"}
+{"level":"info","message":"Product updated: f53c3527-bc10-4e8d-8f3e-a5e95e29fd31","timestamp":"2024-10-16T04:13:23.429Z"}
+{"level":"info","message":"Product updated: 19c37e61-70df-466f-a788-7c50d6c46254","timestamp":"2024-10-16T04:13:47.691Z"}
+{"level":"info","message":"Product updated: d589d4fa-4dbd-41b6-8aa4-01970ddfe626","timestamp":"2024-10-16T04:13:59.485Z"}
+{"level":"info","message":"Fetched products from database and set cache","timestamp":"2024-10-16T04:14:21.470Z"}
+{"level":"info","message":"Fetched products from cache","timestamp":"2024-10-16T04:14:29.614Z"}
+{"level":"info","message":"Fetched products from cache","timestamp":"2024-10-16T04:14:53.255Z"}
+{"level":"info","message":"Fetched products from cache","timestamp":"2024-10-16T04:14:55.754Z"}
+{"level":"info","message":"Fetched products from cache","timestamp":"2024-10-16T04:14:57.282Z"}
+{"level":"info","message":"Fetched products from cache","timestamp":"2024-10-16T04:14:58.985Z"}
+{"level":"info","message":"Fetched products from cache","timestamp":"2024-10-16T04:15:00.511Z"}
+{"level":"info","message":"Fetched products from cache","timestamp":"2024-10-16T04:15:01.944Z"}
+{"level":"info","message":"Fetched products from cache","timestamp":"2024-10-16T04:15:03.997Z"}
+{"level":"info","message":"Fetched products from cache","timestamp":"2024-10-16T04:15:05.593Z"}
+{"level":"info","message":"Fetched products from cache","timestamp":"2024-10-16T04:15:07.295Z"}
+{"level":"info","message":"Fetched products from cache","timestamp":"2024-10-16T04:15:08.741Z"}
+{"level":"info","message":"Fetched products from cache","timestamp":"2024-10-16T04:15:10.280Z"}
+{"level":"info","message":"Fetched products from cache","timestamp":"2024-10-16T04:15:11.716Z"}
+{"level":"info","message":"Fetched products from cache","timestamp":"2024-10-16T04:15:12.964Z"}
+{"level":"info","message":"Fetched products from cache","timestamp":"2024-10-16T04:15:14.317Z"}
+{"level":"info","message":"Fetched products from cache","timestamp":"2024-10-16T04:15:15.709Z"}
+{"level":"info","message":"Fetched products from cache","timestamp":"2024-10-16T04:15:17.889Z"}
+{"level":"info","message":"Fetched products from cache","timestamp":"2024-10-16T04:15:20.134Z"}

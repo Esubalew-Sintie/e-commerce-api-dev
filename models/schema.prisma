@@ -1,0 +1,55 @@
+// Prisma client configuration
+generator client {
+  provider = "prisma-client-js"
+  previewFeatures = ["fullTextSearch"]
+}
+
+// PostgreSQL datasource configuration
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL") // Connection string from environment variable
+}
+
+// User model representing application users
+model User {
+  id       String   @id @default(uuid()) // Unique identifier for users (UUID)
+  username String
+  email    String   @unique               // Unique email for user
+  password String
+  role     String   @default("ADMIN")      // User roles: either 'user' or 'admin'
+  orders   Order[]  @relation("UserOrders") // A user can have multiple orders
+}
+
+// Product model representing the products available for order
+model Product {
+  id          String     @id @default(uuid()) // Unique identifier for products (UUID)
+  name        String                      
+  desc        String                  
+  price       Float                        
+  stock       Int   
+  image       String?
+  cloudId     String?                       
+  category    String                    
+  orderItems  OrderItem[]                  // A product can be associated with multiple order items
+}
+
+// Order model representing customer orders
+model Order {
+  order_id    String     @id @default(uuid()) @unique // Unique identifier for orders (UUID)
+  user_id     String     // Foreign key referencing the User model
+  user        User       @relation("UserOrders", fields: [user_id], references: [id], onDelete: Cascade)
+  orderItems  OrderItem[] // An order can have multiple order items
+  status      String     @default("pending")                       // Order status (e.g., pending, completed)
+  total_price Float                       
+  created_at  DateTime   @default(now())   
+}
+
+// OrderItem model representing items in an order
+model OrderItem {
+  id        String    @id @default(uuid())
+  orderId   String    // Foreign key referencing the Order model
+  productId String    // Foreign key referencing the Product model
+  order     Order     @relation(fields: [orderId], references: [order_id], onDelete: Cascade) // Link to Order
+  product   Product   @relation(fields: [productId], references: [id]) // Link to Product
+  quantity  Int      
+}

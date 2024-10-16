@@ -1,0 +1,6 @@
+{"error":{},"level":"error","message":"Error fetching products","timestamp":"2024-10-16T03:54:09.442Z"}
+{"error":{},"level":"error","message":"Error fetching products","timestamp":"2024-10-16T03:56:00.929Z"}
+{"error":{},"level":"error","message":"Error creating product","timestamp":"2024-10-16T03:57:44.915Z"}
+{"error":{"clientVersion":"5.20.0","code":"P2025","meta":{"cause":"Record to delete does not exist.","modelName":"Product"},"name":"PrismaClientKnownRequestError"},"level":"error","message":"Error creating product","timestamp":"2024-10-16T03:58:36.127Z"}
+{"error":{},"level":"error","message":"Error creating product","timestamp":"2024-10-16T04:02:07.573Z"}
+{"error":{"clientVersion":"5.20.0","code":"P2025","meta":{"cause":"Record to delete does not exist.","modelName":"Product"},"name":"PrismaClientKnownRequestError"},"level":"error","message":"Error creating product","timestamp":"2024-10-16T04:03:12.499Z"}
