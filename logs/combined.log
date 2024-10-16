@@ -58,3 +58,7 @@
 {"level":"info","message":"Fetched products from database and set cache","timestamp":"2024-10-16T06:04:59.841Z"}
 {"level":"info","message":"Fetched products from cache","timestamp":"2024-10-16T06:05:55.757Z"}
 {"level":"info","message":"Fetched products from database and set cache","timestamp":"2024-10-16T07:13:44.756Z"}
+{"level":"info","message":"Fetched products from database and set cache","timestamp":"2024-10-16T10:29:31.235Z"}
+{"level":"info","message":"Product updated: 22996d1a-5206-4f80-9b6f-069317a22a26","timestamp":"2024-10-16T10:31:51.625Z"}
+{"level":"info","message":"Product created: belt","productId":"22996d1a-5206-4f80-9b6f-069317a22a26","timestamp":"2024-10-16T10:32:23.819Z"}
+{"level":"info","message":"Fetched products from database and set cache","timestamp":"2024-10-16T10:32:34.752Z"}

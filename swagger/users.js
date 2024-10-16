@@ -140,7 +140,7 @@ const loginUser = {
                 type: "boolean",
                 example: true,
               },
-              token: {
+              access_token: {
                 type: "string",
                 example: "jwt.token.here",
               },

@@ -13,7 +13,7 @@ module.exports = {
   refreshTokenTtl: "10h",
   accessTokenSecret: "ACCESS_TOKEN_SECRET",
   refreshTokenSecret: "REFRESH_TOKEN_SECRET",
-  verificationSecret:"VERIFICATION_TOKEN_SECRET",
+  verificationSecret: "VERIFICATION_TOKEN_SECRET",
 
   // Redis
   redisPort: 6379,
@@ -28,9 +28,7 @@ module.exports = {
   fileMaxSize: 2 * 1024 * 1024,
 
   // Rate Limiter
-  window: 24 * 60 * 60 * 1000, // 24 hrs in milliseconds
-  maxRequest: 500, // Limit each IP to 100 requests per `window`
-  rateLimitMessage: "You have exceeded the 500 requests in 24 hrs limit!",
-
-  
+  window: 1 * 60 * 1000, // 24 hrs in milliseconds
+  maxRequest: 100, // Limit each IP to 100 requests per `window`
+  rateLimitMessage: "You have exceeded the 100 requests in 1 min limit!",
 };

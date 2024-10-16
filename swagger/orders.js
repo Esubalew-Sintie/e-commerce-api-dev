@@ -58,7 +58,7 @@ const orderBody = {
       items: {
         type: "object",
         properties: {
-          productId: {
+          id: {
             type: "string",
             example: "987e4567-e89b-12d3-a456-426614174002", // Example UUID of the product
             description: "Unique identifier for the product being ordered",
@@ -72,16 +72,16 @@ const orderBody = {
       },
       example: [
         {
-          productId: "987e4567-e89b-12d3-a456-426614174002",
+          id: "987e4567-e89b-12d3-a456-426614174002",
           quantity: 2,
         },
         {
-          productId: "123e4567-e89b-12d3-a456-426614174003",
+          id: "123e4567-e89b-12d3-a456-426614174003",
           quantity: 1,
         },
       ],
       description:
-        "List of products in the order, each with productId and quantity",
+        "List of products in the order, each with id and quantity",
     },
     total_price: {
       type: "number",

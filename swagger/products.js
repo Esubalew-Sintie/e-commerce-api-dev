@@ -114,8 +114,8 @@ const setProduct = {
                         stock: 10,
                         price: 100,
                         desc: 'This is product is .....',
-                        image: 'https://res.cloudinary.com/ddeluyhm2/image/upload/v1677320814/tezpnqzzlphyal4me0ja.jpg',
-                        cloudId: 'tezpnqzzlphyal4me0ja'
+                        // image: 'https://res.cloudinary.com/ddeluyhm2/image/upload/v1677320814/tezpnqzzlphyal4me0ja.jpg',
+                        // cloudId: 'tezpnqzzlphyal4me0ja'
                     }
                   }
     
@@ -155,8 +155,8 @@ const getProduct = {
                       stock: 10,
                       price: 100,
                       desc: 'This is product is .....',
-                      image: 'https://res.cloudinary.com/ddeluyhm2/image/upload/v1677320814/tezpnqzzlphyal4me0ja.jpg',
-                      cloudId: 'tezpnqzzlphyal4me0ja'
+                      // image: 'https://res.cloudinary.com/ddeluyhm2/image/upload/v1677320814/tezpnqzzlphyal4me0ja.jpg',
+                      // cloudId: 'tezpnqzzlphyal4me0ja'
                   }
                 }
   
@@ -196,8 +196,8 @@ const updateProduct = {
                     stock: 10,
                     price: 100,
                     desc: 'This is product is .....',
-                    image: 'https://res.cloudinary.com/ddeluyhm2/image/upload/v1677320814/tezpnqzzlphyal4me0ja.jpg',
-                    cloudId: 'tezpnqzzlphyal4me0ja'
+                    // image: 'https://res.cloudinary.com/ddeluyhm2/image/upload/v1677320814/tezpnqzzlphyal4me0ja.jpg',
+                    // cloudId: 'tezpnqzzlphyal4me0ja'
                 }
               }
 
@@ -237,8 +237,8 @@ const removeProduct = {
                     stock: 10,
                     price: 100,
                     desc: 'This is product is .....',
-                    image: 'https://res.cloudinary.com/ddeluyhm2/image/upload/v1677320814/tezpnqzzlphyal4me0ja.jpg',
-                    cloudId: 'tezpnqzzlphyal4me0ja'
+                    // image: 'https://res.cloudinary.com/ddeluyhm2/image/upload/v1677320814/tezpnqzzlphyal4me0ja.jpg',
+                    // cloudId: 'tezpnqzzlphyal4me0ja'
                 }
               }
 
@@ -305,8 +305,8 @@ const getProductsWithPagination = {
                       stock: 10,
                       price: 100,
                       desc: 'This is product is .....',
-                      image: 'https://res.cloudinary.com/ddeluyhm2/image/upload/v1677320814/tezpnqzzlphyal4me0ja.jpg',
-                      cloudId: 'tezpnqzzlphyal4me0ja'
+                      // image: 'https://res.cloudinary.com/ddeluyhm2/image/upload/v1677320814/tezpnqzzlphyal4me0ja.jpg',
+                      // cloudId: 'tezpnqzzlphyal4me0ja'
                   },
                   {
                     id: "f6688f47-01b7-41cb-b066-a9f9a7297929",
@@ -314,8 +314,8 @@ const getProductsWithPagination = {
                     stock: 10,
                     price: 150,
                     desc: 'This is product is .....',
-                    image: 'https://res.cloudinary.com/ddeluyhm2/image/upload/v1677320814/tezpnqzzlphyal4me0ja.jpg',
-                    cloudId: 'tezpnqzzlphyal4me0ja'
+                    // image: 'https://res.cloudinary.com/ddeluyhm2/image/upload/v1677320814/tezpnqzzlphyal4me0ja.jpg',
+                    // cloudId: 'tezpnqzzlphyal4me0ja'
                   }
                 ]
               }
@@ -366,8 +366,8 @@ const searchProducts = {
                       stock: 10,
                       price: 100,
                       desc: 'This is product is .....',
-                      image: 'https://res.cloudinary.com/ddeluyhm2/image/upload/v1677320814/tezpnqzzlphyal4me0ja.jpg',
-                      cloudId: 'tezpnqzzlphyal4me0ja'
+                      // image: 'https://res.cloudinary.com/ddeluyhm2/image/upload/v1677320814/tezpnqzzlphyal4me0ja.jpg',
+                      // cloudId: 'tezpnqzzlphyal4me0ja'
                   },
                   {
                     id: "f6688f47-01b7-41cb-b066-a9f9a7297929",
@@ -375,8 +375,8 @@ const searchProducts = {
                     stock: 10,
                     price: 150,
                     desc: 'This is product is .....',
-                    image: 'https://res.cloudinary.com/ddeluyhm2/image/upload/v1677320814/tezpnqzzlphyal4me0ja.jpg',
-                    cloudId: 'tezpnqzzlphyal4me0ja'
+                    // image: 'https://res.cloudinary.com/ddeluyhm2/image/upload/v1677320814/tezpnqzzlphyal4me0ja.jpg',
+                    // cloudId: 'tezpnqzzlphyal4me0ja'
                   }
                 ]
               }
