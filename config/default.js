@@ -11,13 +11,8 @@ module.exports = {
   // JWT
   accessTokenTtl: "3h",
   refreshTokenTtl: "10h",
-  verificationTokenTtl: "5m",
-  passwordResetTokenTtl: "5m",
   accessTokenSecret: "ACCESS_TOKEN_SECRET",
   refreshTokenSecret: "REFRESH_TOKEN_SECRET",
-  verificationSecret: "VERIFICATION_SECRET",
-  passwordResetSecret: "PASSWORD_RESET_SECRET",
-
 
   // Redis
   redisPort: 6379,
