@@ -5,33 +5,26 @@ A REST API for online e-commerce system
 ## Features:
 
 - Token based Authentication and  Authorization
-- Scalable Shopping cart using redis
 - Refresh tokens for preventing unauthorized access by blocking compromised or invalid tokens.
 - Products listing
 - Order placements
-- Sending Email
-- Payment
 - File upload
 - Custom Error Handling
-- Full Text Search
 - Database transactions 
-- Server Side pagination 
 - Server side schema validation.
 - API Rate Limiting
 - API Caching
-- Dependency injection
 - Swagger
+- Logging
 
 ## Technology Stack:
 
 - Node js
 - Express Js
-- PostgreSQL
+- PostgreSQL 
 - Redis
 
-## Entity Relationship Diagram:
 
-<img src="./public/erd.png" width="600" background-color="black"/>
 
 
 ## Usage
@@ -43,11 +36,17 @@ A REST API for online e-commerce system
 ```
 npm install
 ```
+## Database Setup (PostgreSQL):
+'''
+    Create a PostgreSQL database named ecommerce:
+    ## run the following command
+    npx prisma migrate dev --name init
 
+'''
 ## Run App
 
 ```
 # Run in dev mode
-npm start
+npm run dev
 
-```
+```# e-commerce-api-dev
