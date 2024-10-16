@@ -57,3 +57,4 @@
 {"level":"info","message":"Product deleted and clear the cache ","name":"camera","productId":"2c49798e-35ab-4dbe-9ac1-294a9f151597","timestamp":"2024-10-16T06:02:29.751Z"}
 {"level":"info","message":"Fetched products from database and set cache","timestamp":"2024-10-16T06:04:59.841Z"}
 {"level":"info","message":"Fetched products from cache","timestamp":"2024-10-16T06:05:55.757Z"}
+{"level":"info","message":"Fetched products from database and set cache","timestamp":"2024-10-16T07:13:44.756Z"}
