@@ -13,6 +13,7 @@ module.exports = {
   refreshTokenTtl: "10h",
   accessTokenSecret: "ACCESS_TOKEN_SECRET",
   refreshTokenSecret: "REFRESH_TOKEN_SECRET",
+  verificationSecret:"VERIFICATION_TOKEN_SECRET",
 
   // Redis
   redisPort: 6379,
